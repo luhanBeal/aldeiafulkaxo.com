@@ -5,6 +5,10 @@
    #bc6c25
    #606c38
    #283618*/
+#fixsize {
+    width: fit-content;
+}
+
 img {
     border-radius: 5px;
 }
