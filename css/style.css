@@ -27,6 +27,7 @@ img {
 }
 
 .backimg {
+    overflow: hidden;
     background: url("../img/ald.jpeg") no-repeat fixed;
     background-size: cover;
     color: black;
@@ -55,6 +56,7 @@ img {
 /* fim buttons */
 
 .caixa {
+    overflow: hidden;
     padding: 60px 0;
     border-bottom: 1px solid #e5e5e5;
 }
@@ -87,12 +89,14 @@ footer p a {
     /* Tip: Apply CSS transforms here */
     /* rotateX() == up/down */
     /* rotateY() == left/right */
-    transform: rotateX(10deg) rotateY(-45deg);
+    transform: rotateX(10deg) rotateY(-40deg);
 }
 .z-layer:not(:first-child) {
     color: #455a64;
     filter: brightness(0.7);
 }
+
+
 
 
 /*Pagina Tchydjo*/
