@@ -5,8 +5,11 @@
    #bc6c25
    #606c38
    #283618*/
-#fixsize {
-    width: fit-content;
+
+/* media Queries*/
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
 }
 
 img {
@@ -84,7 +87,7 @@ footer p a {
     /* Tip: Apply CSS transforms here */
     /* rotateX() == up/down */
     /* rotateY() == left/right */
-    transform: rotateX(15deg) rotateY(-30deg);
+    transform: rotateX(10deg) rotateY(-45deg);
 }
 .z-layer:not(:first-child) {
     color: #455a64;
