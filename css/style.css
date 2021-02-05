@@ -1,0 +1,97 @@
+
+/* Paleta de cores */
+/* #fefae0 - bg-claro
+   #dda15e
+   #bc6c25
+   #606c38
+   #283618*/
+img {
+    border-radius: 5px;
+}
+
+#logo {
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.bg-claro {
+    background-color: #fefae0;
+}
+
+.backimg {
+    background: url("../img/ald.jpeg") no-repeat fixed;
+    background-size: cover;
+    color: black;
+
+}
+ /* buttons */
+.btn-header:hover{
+    background-color: black;
+    color: white;
+}
+
+.btn-basic {
+    background-color: #283618;
+    color: white;
+}
+
+.btn-basic:hover {
+    background-color: white;
+    color: black;
+}
+
+#bookicon:hover{
+    color: white;
+}
+
+/* fim buttons */
+
+.caixa {
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/*OCAS*/
+.ocas {
+    padding-bottom: 20px;
+}
+
+/*Carousel*/
+.bt-carousel {
+    background-color: #4f6357;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+
+footer p a {
+    margin: 5px 15px;
+    text-decoration: none;
+}
+
+
+
+
+
+     /* BOOK TRANSFORM  ztext*/
+.z-text {
+    /* Tip: Apply CSS transforms here */
+    /* rotateX() == up/down */
+    /* rotateY() == left/right */
+    transform: rotateX(15deg) rotateY(-30deg);
+}
+.z-layer:not(:first-child) {
+    color: #455a64;
+    filter: brightness(0.7);
+}
+
+
+/*Pagina Tchydjo*/
+#portrait {
+    width: 100%;
+    border-radius: 10px;
+    float: left;
+}
+
