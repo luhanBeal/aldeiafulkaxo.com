@@ -58,7 +58,9 @@ img {
 #bookicon:hover{
     color: white;
 }
-
+.carousel-control-next, .carousel-control-prev {
+    width:5%;
+}
 /* fim buttons */
 
 .caixa {
@@ -124,3 +126,22 @@ footer a:hover {
 footer {
     background-color: #dda15e;
 }
+
+
+
+/*----------------------------------------------------*/
+/*Test gallery*/
+/*input[type=checkbox] {*/
+/*    display: none;*/
+/*}*/
+
+/*.container img {*/
+/*    margin: 100px;*/
+/*    transition: transform 0.25s ease;*/
+/*    cursor: zoom-in;*/
+/*}*/
+
+/*input[type=checkbox]:checked ~ label > img {*/
+/*    transform: scale(3);*/
+/*    cursor: zoom-out;*/
+/*}*/
