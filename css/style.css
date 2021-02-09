@@ -74,12 +74,15 @@ img {
     border-radius: 50px;
 }
 
-
-footer p a {
+/*footer*/
+footer a {
     margin: 5px 15px;
     text-decoration: none;
+    color: white;
 }
-
+footer {
+    background-color: #dda15e;
+}
 
 
 
@@ -104,5 +107,8 @@ footer p a {
     width: 100%;
     border-radius: 10px;
     float: left;
+}
+.green_bar {
+    background-color: #283618;
 }
 
