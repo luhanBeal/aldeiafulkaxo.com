@@ -14,7 +14,7 @@
 </head>
 <body>
 
-    <header> <!-- Inicio cabecalho -->
+<header> <!-- Inicio cabecalho -->
     <nav class="navbar navbar-expand-md bg-claro">
         <div class="container">
 
@@ -34,16 +34,16 @@
                         <a href="index.html" class="nav-link btn btn-header">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link btn btn-header">Ajude a aldeia</a>
+                        <a href="ajude.html" class="nav-link btn btn-header">Ajude a aldeia</a>
                     </li>
                     <li class="nav-item">
                         <a href="livro.html" class="nav-link btn btn-header">Tchydjo</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link btn btn-header">A aldeia</a>
+                        <a href="aldeia.html" class="nav-link btn btn-header">A aldeia</a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://www.amazon.com.br/dp/B08T9QJ9ZT?ref_=cm_sw_r_kb_dp_TCR4Q4WQ132220SC195Q&tag=kp014-20&linkCode=kpe"
+                        <a href="livro.html"
                            class="nav-link btn btn-header">O livro</a>
                     </li>
                 </ul>
@@ -63,13 +63,13 @@
 
     <section class=" backimg"> <!-- Início seção home -->
             <div class="container">
-                <div class="bg-claro pt-md-5 mb-4 text-center"> <!-- Início texto seção(flexbox) -->
+                <div class="bg-claro pt-md-5 text-center"> <!-- Início texto seção(flexbox) -->
                     <div class="row">
                         <div class="col-md-4 p-4 ps-md-5">
-                            <img src="img/image1026.png" id="portrait">
+                            <img src="img/portrait.png" id="portrait">
                         </div>
                         <div class="col-md-7 align-self-center">
-                            <h1>TCHYDJO UÊ</h1>
+                            <h1 id="tchy">TCHYDJO UÊ</h1>
                         </div>
 
                         <div class="col-md-1 green_bar"></div>
@@ -81,27 +81,49 @@
                                 além de consultas individuais.
                                 Além do Brasil, promoveu sessões de cura na França,
                                 Alemanha, Inglaterra e Sibéria.</p>
-                        <div class="col-md-1 green_bar"></div>
+                        <hr />
                         <br>
-                            <h5 class="p-5"> Este livro escrito por<strong> Rô Santanna </strong>conta os fatos e acontecimentos durante a sia infância e adolecência
-                            onde o aprendizado da cultura Cariri firmou-se em seu espírito.</h5>
+                            <h6 class="p-5"> Este livro escrito por<strong> Rô Santanna </strong>conta os fatos e acontecimentos durante a infância e adolecência
+                            do cacique, onde o aprendizado da cultura Cariri firmou-se em seu espírito.</h6>
 
                     </div>
 
-                    <div class="row">
+                    <div class="row  pb-4">
                         <div class="col-md-1 green_bar"></div>
                         <div class="col-md-6 align-self-center">
                             <h3>Preview do e-book</h3>
 
                             <p class="p-2">Você pode adquirir o e-book utilizando o link abaixo. </p>
                             <a href="https://www.amazon.com.br/dp/B08T9QJ9ZT?ref_=cm_sw_r_kb_dp_TCR4Q4WQ132220SC195Q&tag=kp014-20&linkCode=kpe"
-                               class="btn btn-basic">Adquira o e-book</a>
+                               class="btn btn-basic mb-4">Adquira o e-book</a>
                         </div>
-                        <div class="col-md-5 align-self-center pb-4 pe-auto">
+                        <div class="col-md-5 align-self-center pe-auto" >
                             <iframe type="text/html" width="200" height="350" allowfullscreen style="max-width:100%"
-                                    src="https://ler.amazon.com.br/kp/card?asin=B08T9QJ9ZT&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_TCR4Q4WQ132220SC195Q" >
+                                    src="https://ler.amazon.com.br/kp/card?asin=B08T9QJ9ZT&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_TCR4Q4WQ132220SC195Q"
+                                    id="bookframe">
                             </iframe>
                         </div>
+                    </div>
+
+                    <hr />
+
+                    <div class="row pt-3 pb-5">
+                        <div class="col-md-7 align-self-center p-5 ">
+                            <h5 class="mb-4">Para adquirir o livro impresso, entre em contato com os seguintes números
+                                do whatsapp:</h5>
+                            <ul class="border-basic list-unstyled">
+                                <li>(51) 9952123951 – Rô Sant’Anna</li>
+                                <li>(51) 981176393 – Marisa Beal</li>
+                                <li>(54) 999747617 - Janete (Caxias/RS)</li>
+                                <li>(79) 999721679 – Luciane Pinto (Pacatuba/SE)</li>
+                                <li>(51) 998348724 - Amarildo</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 align-self-center pe-4">
+                            <h5 class="mb-2">Ou entre em contato pelo e-mail: </h5>
+                            <p class="p-2">Entre em contato pelo e-mail: <strong>contato@fulkaxo.com.br</strong></p>
+                        </div>
+                        <div class="col-md-1 green_bar"></div>
                     </div>
 
                 </div> <!-- Fim texto seção -->
@@ -112,28 +134,19 @@
         </section> <!-- Fim seção home -->
 
 
-    <footer class="mt-4 mb-4">
+    <footer class="pt-4 pb-4">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
-                    <p>
-                        <a href="index.html">Home</a>
-                        <a href="https://www.amazon.com.br/dp/B08T9QJ9ZT?ref_=cm_sw_r_kb_dp_TCR4Q4WQ132220SC195Q&tag=kp014-20&linkCode=kpe">
-                            Link para para o livro</a>
+                <div class="col-md-6">
 
-                    </p>
+                    <a href="index.html">Home</a>
+                    <a href="livro.html">Link para o livro</a>
+
+
                 </div>
-                <!--          <div class="col-md-4 d-flex justify-content-end">-->
-                <!--            <a href="#" class="text-secondary ms-2">-->
-                <!--              <i class="fab fa-facebook-square fa-2x"></i>-->
-                <!--            </a>-->
-                <!--            <a href="#" class="text-secondary ms-2">-->
-                <!--              <i class="fab fa-instagram-square fa-2x"></i>-->
-                <!--            </a>-->
-                <!--            <a href="#" class="text-secondary ms-2">-->
-                <!--              <i class="fab fa-twitter-square fa-2x"></i>-->
-                <!--            </a>-->
-                <!--          </div>-->
+                <div class="col-lg-6 align-self-center mt-4 mt-md-0">
+                    <a href="https://github.com/luhanBeal">© Copyright 2021 Fulkaxó by Luhan Beal Sant'Anna</a>
+                </div>
             </div>
         </div>
     </footer>

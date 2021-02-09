@@ -1,4 +1,10 @@
-
+body {
+    font-family: Times, Times New Roman, serif;
+    font-size: 1.2em;
+}
+h2, h3, h4, h5 {
+    font-weight: bold;
+}
 /* Paleta de cores */
 /* #fefae0 - bg-claro
    #dda15e
@@ -74,19 +80,6 @@ img {
     border-radius: 50px;
 }
 
-/*footer*/
-footer a {
-    margin: 5px 15px;
-    text-decoration: none;
-    color: white;
-}
-footer {
-    background-color: #dda15e;
-}
-
-
-
-
      /* BOOK TRANSFORM  ztext*/
 .z-text {
     /* Tip: Apply CSS transforms here */
@@ -100,8 +93,6 @@ footer {
 }
 
 
-
-
 /*Pagina Tchydjo*/
 #portrait {
     width: 100%;
@@ -111,4 +102,25 @@ footer {
 .green_bar {
     background-color: #283618;
 }
+#tchy {
+    font-size: 50px;
+}
 
+.border-basic {
+    border: 2px solid #283618;
+    border-radius: 8px;
+}
+
+/*footer*/
+footer a {
+    margin: 5px 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+footer a:hover {
+    color: #283618;
+    transition: color .5s ease-in-out;
+}
+footer {
+    background-color: #dda15e;
+}

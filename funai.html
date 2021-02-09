@@ -1,10 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- view point é toda area de visualização, initial scale é o zoom. (da pra adicionar shrink-to-fit=no) -->
+
+    <!-- Bootstrap CSS  (v5 .min) -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Style -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <title>Fulkaxó</title>
 </head>
 <body>
-$END$
+
+<header> <!-- Inicio cabecalho -->
+    <nav class="navbar navbar-expand-md bg-claro">
+        <div class="container">
+
+            <div class="me-auto" id="logo">
+                <h3>Fulkaxó</h3>
+            </div>
+
+            <button class="navbar-toggler navbar-light"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menu-principal">
+                <span class="navbar-toggler-icon"></span> <!-- menu hamburguer -->
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu-principal">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link btn btn-header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="ajude.html" class="nav-link btn btn-header">Ajude a aldeia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="livro.html" class="nav-link btn btn-header">Tchydjo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="aldeia.html" class="nav-link btn btn-header">A aldeia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="livro.html"
+                           class="nav-link btn btn-header">O livro</a>
+                    </li>
+                </ul>
+                <a href="index.html" class="text-secondary ms-3">
+                    <img src="img/icons/br.png" width="20px">
+                </a>
+                <a href="#" class="text-secondary ms-3">
+                    <img src="img/icons/uk.png" width="20px">
+                </a>
+            </div>
+
+        </div>
+
+    </nav>
+
+</header> <!-- fim cabecalho -->
+
+<section class=" backimg"> <!-- Início seção home -->
+    <div class="container">
+        <div class="bg-claro pt-md-5 text-center"> <!-- Início texto seção(flexbox) -->
+            <div class="row">
+                <div class="col-md-6 p-4 ps-md-5">
+                    <img src="img/all.png" id="portrait">
+                </div>
+                <div class="col-md-5 align-self-center">
+                    <h1>Saiba como ajudar a aldeia</h1>
+                </div>
+                <div class="col-md-1 green_bar"></div>
+                <p class="p-5">
+                    A aldeia Fulkaxó é uma mistura de três etnias: Kariri, Xocó e Fulni-ô. A
+                    aldeia está sendo construída no município de Pacatuba, no estado de
+                    Sergipe.
+                    Na aldeia não há energia elétrica, nem água. Foram construídas quatro ocas
+                    comuns, além de algumas moradias, tudo feito através de doações de
+                    pessoas de todo o Brasil que conhecem o cacique Tchydjo e são
+                    simpatizantes da causa Fulkaxó.
+                    Para colaborar com a aldeia, adquira o ebook “TCHYDJO – o espírito e a
+                    esperança Fulkaxó – parte 1” no link abaixo:</p>
+                <div>
+                    <a href="https://www.amazon.com.br/dp/B08T9QJ9ZT?ref_=cm_sw_r_kb_dp_TCR4Q4WQ132220SC195Q&tag=kp014-20&linkCode=kpe"
+                       class="btn btn-basic mb-4">Adquira o e-book</a>
+                </div>
+                <br>
+            </div>
+
+            <div class="row pt-5">
+                <div class="col-md-1 green_bar"></div>
+                <div class="col-md-7 align-self-center p-3">
+                    <h3>Outras maneiras de ajudar: </h3>
+
+                    <p class="p-2">Para ajudar a construção e manutenção da aldeia Fulkaxó,
+                        doações podem ser feitas através da seguinte conta:</p>
+                    <ul class="border-basic list-unstyled">
+                        <li>Banco Bradesco - 237</li>
+                        <li>Agência: 3167-4</li>
+                        <li>Conta Poupança: 4017277-7</li>
+                        <li>Humberto Cruz – CPF nº 136166094/53</li>
+                    </ul>
+
+                </div>
+                <div class="col-md-4 align-self-center p-3" >
+                    <h5>Adquira o livro físico:</h5>
+                    <a href="livro.html"
+                       class="btn btn-basic mb-4">Contatos</a>
+                </div>
+            </div>
+
+        </div> <!-- Fim texto seção -->
+
+    </div>
+
+
+</section> <!-- Fim seção home -->
+
+
+<footer class="pt-4 pb-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+
+                <a href="index.html">Home</a>
+                <a href="livro.html">Link para o livro</a>
+
+
+            </div>
+            <div class="col-lg-6 align-self-center mt-4 mt-md-0">
+                <a href="https://github.com/luhanBeal">© Copyright 2021 Fulkaxó by Luhan Beal Sant'Anna</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- bootstrap -->
+<script src="js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
